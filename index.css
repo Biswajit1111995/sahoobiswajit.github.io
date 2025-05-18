@@ -173,13 +173,13 @@ progress {
 .led:hover{
     color: rgb(26, 9, 126);
 }
-.lt{
+/* .lt{
     width: 30%;
-  height:70px
+  height:70px */
 }
 .llt{
-    width: 70%;
-  height:70px
+    width: 1200px;;
+    height:20px
 }
 .lttt{
     display: flex;
