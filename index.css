@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  
 }
 .pp{
     height: 200px;
@@ -17,16 +16,17 @@
 .nav{
   max-width: 100%;
   height:30px;
-  margin: 0 auto;
+  margin: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;  
+  padding: 20px;
 }
 .ap{
     line-height: 1.6;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* text-align; */
+    text-align: justify;
 }
 .li{
     list-style: none;
@@ -37,11 +37,13 @@
 
 .pp{
     position:absolute;
+    height: 400px;
+    width: 400px;
 
 }
 .rd{
     position: absolute;
-    left: 520px;
+    left: 930px;
 }
 .ld{
     position: absolute;
@@ -154,14 +156,14 @@ progress {
     color: rgb(170, 82, 11);
 }
 .led{
-    height: 200px;
-    width: 350px;
+    height: 250px;
+    width: 45%;
     /* background-color: antiquewhite; */
     text-align: center;
 }
 .rid{
-    height: 200px;
-    width: 350px;
+    height: 250px;
+    width:45%;
     /* background-color: antiquewhite; */
 }
 .ta{
@@ -172,11 +174,11 @@ progress {
     color: rgb(26, 9, 126);
 }
 .lt{
-    max-width: 40%;
+    width: 30%;
   height:70px
 }
 .llt{
-    max-width: 60%;
+    width: 70%;
   height:70px
 }
 .lttt{
