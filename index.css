@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  
+}
+.pp{
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+    top: 50px;
+}
+.fd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.nav{
+  max-width: 100%;
+  height:30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;  
+}
+.ap{
+    line-height: 1.6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-align; */
+}
+.li{
+    list-style: none;
+    justify-content: space-between;
+    gap: 40px;
+    text-decoration: dotted;
+}
+
+.pp{
+    position:absolute;
+
+}
+.rd{
+    position: absolute;
+    left: 520px;
+}
+.ld{
+    position: absolute;
+    width: 50%;
+    left: 70px;
+    top: 80px;
+    right:40px;
+}
+.lediv{
+    width:65% ;
+    border-spacing: 20px;
+    margin: 30px;
+    top:100px ;
+}
+.EDU{
+    text-align: center;
+    font-size: larger;
+}
+.edubg{
+    display: flex;
+    
+}
+.edubg>div{
+    margin-left: 30px;
+    width: 30%;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: initial;
+    font-size:large;
+    color:rgb(170, 82, 11); 
+    line-height:0px;
+}
+.academic{
+    display: flex;
+}
+.academic>div{
+    margin-left: 30px;
+    width: 30%;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 0px;
+
+}
+.tech{
+    text-align: left;
+    justify-content: left;
+    font-size: x-large;
+    line-height: 150%;
+}
+.tc { 
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    color: rgb(170, 82, 11);
+}
+
+.left, .right {
+    height: 100px;
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+}
+
+progress {
+    width: 100%;
+    color: rgb(170, 82, 11);
+}
+.body{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-image: -webkit-radial-gradient(white);
+    width: 200px;
+    height: 200px;
+    transition: all 2s;
+    color: #100699;
+}
+.box:hover{
+    border-radius: 50%;
+    transform: rotate3d(10,3,5,360deg);
+}
+.ex{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.anima{
+    display: flex;
+    padding: 20px;
+    justify-content:space-between ;
+    text-align: justify;
+}
+.fee{
+    text-align: center;
+}
+.md{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(170, 82, 11);
+}
+.led{
+    height: 200px;
+    width: 350px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+.rid{
+    height: 200px;
+    width: 350px;
+    /* background-color: antiquewhite; */
+}
+.ta{
+    height: 98px;
+    width: 240px;
+}
+.led:hover{
+    color: rgb(26, 9, 126);
+}
+.lt{
+    max-width: 40%;
+  height:70px
+}
+.llt{
+    max-width: 60%;
+  height:70px
+}
+.lttt{
+    display: flex;
+}
