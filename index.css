@@ -178,8 +178,8 @@ progress {
   height:70px */
 }
 .llt{
-    width: 1200px;;
-    height:20px
+    width:100%;
+    height:10px
 }
 .lttt{
     display: flex;
